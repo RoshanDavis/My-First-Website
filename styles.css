@@ -6,6 +6,14 @@
     font-family: rubik;
     src: url(fonts/RubikMarkerHatch-Regular.ttf);
 }
+@font-face {
+    font-family: gloria;
+    src: url(fonts/GloriaHallelujah-Regular.ttf);
+}
+@font-face {
+    font-family: parisienne;
+    src: url(fonts/Parisienne-Regular.ttf);
+}
 nav{
     word-spacing: 10px;
     font-family: monospace; 
@@ -16,20 +24,22 @@ nav{
 nav a{
     color: white;
 }
-body{
-    /* background-color: rgb(17, 16, 18); */
-    background-color:rgb(255, 100, 44);
-}
 h1{
     color: white;
-    font-size: 90px;
-    font-family: 'tangerine', serif;
-    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.616);
+    font-size: 70px;
+    font-family: 'gloria', serif;
+    font-weight: 1000;
+    
 }
 h2{
     color: white;
     font-size: 70px;
     font-family:'rubik',sans-serif;
+}
+h3{
+    color: white;
+    font-size: 150px;
+    font-family: 'parisienne';
 }
 p{
     color: white;
@@ -37,9 +47,12 @@ p{
     font-family: monospace;
 }
 .image-border{
-    height: 450px;
-    width: 400px;
+    height: 370px;
+    width: 350px;
     border-width: 20px;
     border-radius: 50%;
     border-style: hidden;
+}
+main{
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.616);
 }
