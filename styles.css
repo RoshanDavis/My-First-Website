@@ -1,8 +1,4 @@
 @font-face {
-    font-family: tangerine;
-    src: url(fonts/Tangerine-Regular.ttf);
-}
-@font-face {
     font-family: rubik;
     src: url(fonts/RubikMarkerHatch-Regular.ttf);
 }
@@ -18,41 +14,72 @@ nav{
     word-spacing: 10px;
     font-family: monospace; 
     font-size: large;
-    border-color: aliceblue;
-    
+    padding-left: 20px; 
 }
 nav a{
     color: white;
 }
 h1{
-    color: white;
+    
     font-size: 70px;
     font-family: 'gloria', serif;
     font-weight: 1000;
-    
 }
 h2{
-    color: white;
     font-size: 70px;
     font-family:'rubik',sans-serif;
+    text-align: center;
 }
 h3{
-    color: white;
-    font-size: 150px;
+    font-size: 165px;
     font-family: 'parisienne';
+    text-align: center;
+    margin-top: 0%;
 }
 p{
-    color: white;
     font-size: x-large;
     font-family: monospace;
+    padding: 20px;
+    padding-top: 30px;
 }
 .image-border{
     height: 370px;
-    width: 350px;
+    width: 370px;
     border-width: 20px;
     border-radius: 50%;
     border-style: hidden;
+    padding: 20px;
 }
 main{
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.616);
+    padding: 20px;
+}
+header{
+    background-color: black;
+    height: 50px;
+}
+body{
+    color: white;
+    margin: 0%;
+}
+.about-content{
+    display: flex;
+}
+#index-body{
+    background-image: linear-gradient(#F34100,#FF5D22,#FF7F50,#ffd1c1);
+    background-attachment: fixed;
+}
+#about-body{
+    background-image: linear-gradient(to bottom left,#004d96,#0074B7,#60A3D9,#BFD7ED);
+    background-attachment: fixed;
+}
+footer{
+    color: white; 
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    
 }
